@@ -1,6 +1,6 @@
 !# General
-padding.width: 6
-padding.height: 4
+padding.width: 8
+padding.height: 5
 window.handle.width:0
 border.Width: 0
 window.client.padding.width: 0
@@ -13,8 +13,8 @@ window.*.client.color: #e0e0e1
 !# Set *all* fonts here
 menu.items.font:shadow=y:shadowtint=0:shadowoffset=1
 menu.items.active.font:shadow=y:shadowtint=40:shadowoffset=1
-window.active.label.text.font:shadow=y:shadowtint=0:shadowoffset=4
-window.inactive.label.text.font:shadow=y:shadowtint=-40:shadowoffset=1
+window.active.label.text.font:shadow=y:shadowtint=10:shadowoffset=1
+window.inactive.label.text.font:shadow=y:shadowtint=0:shadowoffset=1
 osd.label.text.font:shadow=y:shadowtint=-20:shadowoffset=1
 
 !# just no bevel, right?
@@ -51,12 +51,9 @@ osd.*.bg.shadow:    60
 menu.border.color: #a5a5a5
 menu.border.width: 0
 
-!# maybe you don't like that this is not the same as the main active title?? 
-menu.title.bg: flat border vertical gradient
-menu.title.bg.color: #464744
-menu.title.bg.colorTo: #555753
-
-menu.title.text.color: #ffffff
+menu.title.bg: flat solid
+menu.title.bg.color: #e0e0e1
+menu.title.text.color: #a7a7a7
 menu.title.bg.border.color: #555753
 
 menu.items.bg: flat solid
@@ -69,9 +66,9 @@ menu.items.active.bg.color: #4a90d9
 menu.items.active.text.color: #fff
 
 menu.separator.width: 1
-menu.separator.padding.width: 6
+menu.separator.padding.width: 3
 menu.separator.padding.height: 3
-menu.separator.color: #c9c9c9
+menu.separator.color: #ececec
 
 
 !# Active Windows.
@@ -81,7 +78,7 @@ window.*.title.separator.color: #3A4040
 
 !#
 window.active.title.bg: raised vertical gradient
-window.active.title.bg.color: #495353
+window.active.title.bg.color: #444D4D
 window.active.title.bg.colorTo: #3A4040
 window.active.title.bg.border.color: #3B3B3B
 
@@ -142,8 +139,8 @@ osd.inactive.label.text.color: #333
 osd.label.text.color: #333333
 !# yeah whatever, this is fine anyhoo?
 osd.hilight.bg: flat solid 
-osd.hilight.bg.color: #D1E1E8
-
+osd.hilight.bg.color: #4a90d9
+osd.hilight.text.color: #ffffff
 osd.unhilight.bg: flat solid
 osd.unhilight.bg.color: #E3E3E0
 !##############################################################################
@@ -156,9 +153,9 @@ osd.button.focused.text.color #222
 osd.button.pressed.box.color: #D3D3D4
 osd.button.focused.box.color: #bbb
 
-osd.button.*.bg: raised solid 
+osd.button.*.bg: flat border vertical gradient
 osd.button.pressed.bg: sunken solid
-osd.button.*.bg.color: #D3D3D4
-osd.button.*.colorTo: #5B5B56
-
+osd.button.*.bg.color: #F7F7F7
+osd.button.*.bg.colorTo: #DCDCDC
+osd.button.*.bg.border.color: #B2B6B2
 
