@@ -1,8 +1,8 @@
 !# General
 padding.width: 6
-padding.height: 4
+padding.height: 3
 window.handle.width:0
-border.Width: 0
+border.Width: 1
 window.client.padding.width: 0
 window.client.padding.height: 0
 menu.overlap: 2
@@ -24,7 +24,7 @@ osd.label.text.font:shadow=y:shadowtint=-20:shadowoffset=1
 window.*.bg.highlight: 80
 window.*.bg.shadow:    10
 
-window.active.title.bg.highlight: 00
+window.active.title.bg.highlight: 20
 window.active.title.bg.shadow:    00
 
 window.inactive.title.bg.highlight: 30
@@ -63,6 +63,7 @@ menu.items.disabled.text.color: #a9a5a2
  
 menu.items.active.bg: Flat solid 
 menu.items.active.bg.color: #4a90d9
+#menu.items.active.bg.color: #888a85
 menu.items.active.text.color: #fff
 
 menu.separator.width: 1
@@ -73,12 +74,12 @@ menu.separator.color: #ececec
 
 !# Active Windows.
 
-window.*.border.color: #9d9d9e
-window.*.title.separator.color: #e0e0e1
+window.*.border.color: #969696
+window.*.title.separator.color: #ededed
 
 !#
 window.active.title.bg: raised vertical gradient
-window.active.title.bg.color: #ffffff
+window.active.title.bg.color: #fefefe
 window.active.title.bg.colorTo: #ededed
 window.active.title.bg.border.color: #3B3B3B
 
@@ -87,12 +88,12 @@ window.active.label.text.color: #222
 
 window.active.button.*.bg: parentrelative
 window.active.button.*.pressed.image.color: #506C7D
-window.active.button.*.image.color: #4d6067
+window.active.button.*.image.color: #4D6067
 
 window.active.button.*.hover.image.color: #333
 window.active.button.*.hover.bg: flat border vertical gradient
 
-window.active.button.*.hover.bg.color: #fefefe
+window.active.button.*.hover.bg.color: #ffffff
 window.active.button.*.hover.bg.colorTo: #dededf
 window.active.button.*.hover.bg.border.color: #b3b3b4
 window.active.button.disabled.image.color: #dddddd
@@ -103,7 +104,7 @@ window.active.grip.bg: rasied solid
 window.active.grip.bg.color:  #363635
 
 !# Inactive
-window.inactive.border.color: #b3b3b4
+window.inactive.border.color: #969696
 
 !## Hmmm we need an alternative...
 window.inactive.title.separator.color: #e0e0e1
