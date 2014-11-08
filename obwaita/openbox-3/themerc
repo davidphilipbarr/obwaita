@@ -75,15 +75,17 @@ menu.separator.color: #ececec
 
 !# Active Windows.
 
-window.*.border.color: #6c6c6c
-#window.*.title.separator.color: #a1a1a1
+window.*.border.color: #a6a6a6
+
 window.*.title.separator.color: #ededed
 !#
-window.active.title.bg: raised vertical gradient
-window.active.title.bg.color: #f7f7f7
-#window.active.title.bg.colorTo: #eeeeee
-window.active.title.bg.colorTo: #ededed
-window.active.title.bg.border.color: #3B3B3B
+
+*.title.bg: raised gradient splitvertical
+*.title.bg.color: #ededed
+*.title.bg.color.splitTo: #f7f7f7
+*.title.bg.colorTo: #ededed
+*.title.bg.colorTo.splitTo: #ededed
+
 
 window.active.label.bg: parentrelative
 window.active.label.text.color: #111111
@@ -106,7 +108,7 @@ window.active.grip.bg: rasied solid
 window.active.grip.bg.color:  #363635
 
 !# Inactive
-window.inactive.border.color: #ceccce
+window.inactive.border.color: #bebebe
 
 !## Hmmm we need an alternative...
 window.inactive.title.separator.color: #ededed
@@ -119,7 +121,7 @@ window.inactive.label.bg: parentrelative
 window.inactive.label.text.color: #a7a7a7
 
 window.inactive.button.*.bg: parentrelative
-window.inactive.button.*.image.color: #cccccd
+window.inactive.button.*.image.color: #dadbdb
 window.inactive.button.hover.bg.color: #606060
 
 window.inactive.handle.bg: raised solid
