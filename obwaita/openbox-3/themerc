@@ -1,6 +1,7 @@
 !# General
-padding.width: 4
-padding.height: 2
+padding.width: 9
+padding.height: 3
+window.handle.width:0
 window.handle.width:0
 border.Width: 1
 window.client.padding.width: 0
@@ -13,8 +14,8 @@ window.*.client.color: #e0e0e1
 !# Set *all* fonts here
 menu.items.font:shadow=y:shadowtint=0:shadowoffset=1
 menu.items.active.font:shadow=y:shadowtint=40:shadowoffset=1
-window.active.label.text.font:shadow=y:shadowtint=0:shadowoffset=4
-window.inactive.label.text.font:shadow=y:shadowtint=-40:shadowoffset=1
+window.active.label.text.font:shadow=n:shadowtint=0:shadowoffset=0
+window.inactive.label.text.font:shadow=n:shadowtint=-40:shadowoffset=1
 osd.label.text.font:shadow=y:shadowtint=-20:shadowoffset=1
 
 !# just no bevel, right?
@@ -24,8 +25,8 @@ osd.label.text.font:shadow=y:shadowtint=-20:shadowoffset=1
 window.*.bg.highlight: 80
 window.*.bg.shadow:    10
 
-window.active.title.bg.highlight: 20
-window.active.title.bg.shadow:    00
+window.active.title.bg.highlight: 5
+window.active.title.bg.shadow:    0
 
 window.inactive.title.bg.highlight: 0
 window.inactive.title.bg.shadow:    00
@@ -75,23 +76,23 @@ menu.separator.color: #ececec
 !# Active Windows.
 
 window.*.border.color: #6c6c6c
+#window.*.title.separator.color: #a1a1a1
 window.*.title.separator.color: #ededed
-
 !#
 window.active.title.bg: raised vertical gradient
-window.active.title.bg.color: #fefefe
-window.active.title.bg.colorTo: #eeeeee
-#window.active.title.bg.colorTo: #ededed
+window.active.title.bg.color: #f7f7f7
+#window.active.title.bg.colorTo: #eeeeee
+window.active.title.bg.colorTo: #ededed
 window.active.title.bg.border.color: #3B3B3B
 
 window.active.label.bg: parentrelative
-window.active.label.text.color: #222
+window.active.label.text.color: #111111
 
 window.active.button.*.bg: parentrelative
 window.active.button.*.pressed.image.color: #506C7D
-window.active.button.*.image.color: #4D6067
+window.active.button.*.image.color: #2E3436
 
-window.active.button.*.hover.image.color: #4D6067
+window.active.button.*.hover.image.color: #111111
 window.active.button.*.hover.bg: flat border vertical gradient
 
 window.active.button.*.hover.bg.color: #ffffff

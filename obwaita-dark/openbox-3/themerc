@@ -1,5 +1,5 @@
 !# General
-padding.width: 5
+padding.width: 9
 padding.height: 3
 window.handle.width:0
 border.Width: 1
@@ -24,7 +24,7 @@ osd.label.text.font:shadow=y:shadowtint=-20:shadowoffset=1
 window.*.bg.highlight: 80
 window.*.bg.shadow:    10
 
-window.active.title.bg.highlight: 20
+window.active.title.bg.highlight: 3
 window.active.title.bg.shadow:    00
 
 window.inactive.title.bg.highlight: 00
@@ -74,16 +74,20 @@ menu.separator.color: #ececec
 
 !# Active Windows.
 
-#window.*.border.color:#3A4040
-window.*.border.color:#495353
+window.*.border.color:#333333
+#window.*.border.color:#495353
 window.*.title.separator.color: #3A4040
 
 !#
-window.active.title.bg: raised vertical gradient
-#window.active.title.bg.color: #444D4D
-window.active.title.bg.color: #495353
-window.active.title.bg.colorTo: #3A4040
+window.active.title.bg: raised solid
+window.active.title.bg.color: #3A4040
 window.active.title.bg.border.color: #3B3B3B
+
+
+#window.active.title.bg: raised vertical gradient
+#window.active.title.bg.color: #495353
+#window.active.title.bg.colorTo: #3A4040
+#window.active.title.bg.border.color: #3B3B3B
 
 window.active.label.bg: parentrelative
 window.active.label.text.color: #eeeeec
