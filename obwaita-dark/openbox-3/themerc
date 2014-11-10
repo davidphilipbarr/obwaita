@@ -12,7 +12,7 @@ window.*.client.color: #e0e0e1
 
 !# Set *all* fonts here
 menu.items.font:shadow=y:shadowtint=0:shadowoffset=1
-menu.items.active.font:shadow=y:shadowtint=40:shadowoffset=1
+menu.items.active.font:shadow=y:shadowtint=0:shadowoffset=1
 window.active.label.text.font:shadow=y:shadowtint=5:shadowoffset=1
 window.inactive.label.text.font:shadow=y:shadowtint=0:shadowoffset=1
 osd.label.text.font:shadow=y:shadowtint=-20:shadowoffset=1
@@ -74,14 +74,20 @@ menu.separator.color: #ececec
 
 !# Active Windows.
 
-window.*.border.color:#333333
+window.*.border.color:#1c2c27
 #window.*.border.color:#495353
 window.*.title.separator.color: #3A4040
 
 !#
-window.active.title.bg: raised solid
-window.active.title.bg.color: #3A4040
-window.active.title.bg.border.color: #3B3B3B
+#window.active.title.bg: raised solid
+#window.active.title.bg.color: #3A4040
+
+
+window.active.title.bg: raised gradient vertical
+window.active.title.bg.color: #424949
+window.active.title.bg.color.splitTo:  
+window.active.title.bg.colorTo: #393f3f
+window.active.title.bg.colorTo.splitTo: #393f3f
 
 
 #window.active.title.bg: raised vertical gradient
