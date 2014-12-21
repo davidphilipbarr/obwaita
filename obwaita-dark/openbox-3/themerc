@@ -1,6 +1,6 @@
 !# General
 padding.width: 9
-padding.height: 3
+padding.height: 4
 window.handle.width:0
 border.Width: 1
 window.client.padding.width: 0
@@ -11,8 +11,11 @@ window.*.client.color: #e0e0e1
 *.text.justify: center
 
 !# Set *all* fonts here
-menu.items.font:shadow=y:shadowtint=0:shadowoffset=1
-menu.items.active.font:shadow=y:shadowtint=0:shadowoffset=1
+
+!#this is terrible to add some padding to the menu items, soz
+menu.items.font:shadow=y:shadowtint=0:shadowoffset=2
+menu.items.active.font:shadow=y:shadowtint=0:shadowoffset=2
+
 window.active.label.text.font:shadow=y:shadowtint=5:shadowoffset=1
 window.inactive.label.text.font:shadow=y:shadowtint=0:shadowoffset=1
 osd.label.text.font:shadow=y:shadowtint=-20:shadowoffset=1
@@ -22,7 +25,7 @@ osd.label.text.font:shadow=y:shadowtint=-20:shadowoffset=1
 *.bg.shadow:    0
 
 window.*.bg.highlight: 80
-window.*.bg.shadow:    10
+window.*.bg.shadow:    0
 
 window.active.title.bg.highlight: 3
 window.active.title.bg.shadow:    00
@@ -74,20 +77,17 @@ menu.separator.color: #ececec
 
 !# Active Windows.
 
-window.*.border.color:#1c2c27
+#window.*.border.color:#1c2c27
+window.*.border.color:#282828
 #window.*.border.color:#495353
-window.*.title.separator.color: #3A4040
+window.active.title.separator.color: #3A4040
 
 !#
-#window.active.title.bg: raised solid
-#window.active.title.bg.color: #3A4040
-
 
 window.active.title.bg: raised gradient vertical
 window.active.title.bg.color: #424949
-window.active.title.bg.color.splitTo:  
-window.active.title.bg.colorTo: #393f3f
-window.active.title.bg.colorTo.splitTo: #393f3f
+window.active.title.bg.colorTo: #3A4040
+
 
 
 #window.active.title.bg: raised vertical gradient

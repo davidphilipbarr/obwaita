@@ -12,8 +12,8 @@ window.*.client.color: #e0e0e1
 *.text.justify: center
 
 !# Set *all* fonts here
-menu.items.font:shadow=y:shadowtint=0:shadowoffset=1
-menu.items.active.font:shadow=y:shadowtint=40:shadowoffset=1
+menu.items.font:shadow=y:shadowtint=0:shadowoffset=2
+menu.items.active.font:shadow=y:shadowtint=40:shadowoffset=2
 window.active.label.text.font:shadow=n:shadowtint=0:shadowoffset=0
 window.inactive.label.text.font:shadow=n:shadowtint=-40:shadowoffset=1
 osd.label.text.font:shadow=y:shadowtint=-20:shadowoffset=1
@@ -93,8 +93,8 @@ window.active.label.text.color: #111111
 window.active.button.*.bg: parentrelative
 window.active.button.*.pressed.image.color: #506C7D
 
-window.active.button.*.image.color: #4d6067
-!#window.active.button.*.image.color: #2E3436
+!#window.active.button.*.image.color: #4d6067
+window.active.button.*.image.color: #2E3436
 
 window.active.button.*.hover.image.color: #111111
 window.active.button.*.hover.bg: flat border vertical gradient
