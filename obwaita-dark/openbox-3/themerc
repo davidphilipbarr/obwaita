@@ -50,7 +50,7 @@ osd.*.bg.shadow:    60
 
 !# Menu
 
-!# this matches the gtk them, that is all.
+!# this matches the gtk theme, that is all.
 menu.border.color: #a5a5a5
 menu.border.width: 0
 
@@ -64,9 +64,8 @@ menu.items.bg.color: #fefefe
 menu.items.text.color: #333333
 menu.items.disabled.text.color: #a9a5a2
  
-menu.items.active.bg: Flat solid 
+menu.items.active.bg: flat solid 
 menu.items.active.bg.color: #4a90d9
-#menu.items.active.bg.color: #888a85
 menu.items.active.text.color: #ffffff
 
 menu.separator.width: 1
@@ -78,22 +77,18 @@ menu.separator.color: #ececec
 !# Active Windows.
 
 #window.*.border.color:#1c2c27
-window.*.border.color:#282828
-#window.*.border.color:#495353
-window.active.title.separator.color: #3A4040
-
-!#
+window.*.border.color:#282c2c
+window.active.title.separator.color: #393f3f
 
 window.active.title.bg: raised gradient vertical
-window.active.title.bg.color: #424949
-window.active.title.bg.colorTo: #3A4040
-
-
-
-#window.active.title.bg: raised vertical gradient
-#window.active.title.bg.color: #495353
+#window.active.title.bg.color: #424949
+#window.active.title.bg.color: #3E4444
 #window.active.title.bg.colorTo: #3A4040
-#window.active.title.bg.border.color: #3B3B3B
+
+!#actual adwaita gradient
+
+window.active.title.bg.color: #424b4b
+window.active.title.bg.colorTo: #393f3f
 
 window.active.label.bg: parentrelative
 window.active.label.text.color: #eeeeec

@@ -1,6 +1,6 @@
 !# General
 padding.width: 7
-padding.height: 3
+padding.height: 4
 window.handle.width:0
 border.Width: 1
 window.client.padding.width: 0
@@ -52,15 +52,15 @@ menu.border.color: #a5a5a5
 menu.border.width: 0
 
 menu.title.bg: flat solid
-menu.title.bg.color: #e0e0e1
-menu.title.text.color: #a7a7a7
+menu.title.bg.color: #393f3f
+menu.title.text.color: #e0e0e0
 
 menu.items.bg: flat solid
 menu.items.bg.color: #fefefe
 menu.items.text.color: #333333
 menu.items.disabled.text.color: #a9a5a2
  
-menu.items.active.bg: Flat solid 
+menu.items.active.bg: flat solid 
 menu.items.active.bg.color: #4a90d9
 menu.items.active.text.color: #ffffff
 
@@ -72,12 +72,12 @@ menu.separator.color: #ececec
 
 !# Active Windows.
 !##262626
-window.*.border.color:#2C3030
-window.*.title.separator.color: #3A4040
+#window.*.border.color:#2C3030
+window.*.border.color:#282c2c
+window.*.title.separator.color: #393f3f
 
 window.active.title.bg: raised solid
-window.active.title.bg.color: #3A4040
-window.active.title.bg.colorTo: #3A4040
+window.active.title.bg.color: #393f3f
 
 window.active.label.bg: parentrelative
 window.active.label.text.color: #eeeeec
@@ -133,6 +133,7 @@ osd.hilight.bg.color: #4a90d9
 osd.hilight.text.color: #ffffff
 osd.unhilight.bg: flat solid
 osd.unhilight.bg.color: #E3E3E0
+
 !##############################################################################
 
 
