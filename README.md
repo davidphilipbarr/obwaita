@@ -27,3 +27,5 @@ They more or less mimic the client side window shadows from Adwaita and will
 stop the ugly double shadow problem
 
 Obwaita Dark Flat is a kind of experiment, it's meant to be used with the max and close buttons in either corner of the titlebar as the max button is massive, it works for me...
+
+Obwaita-ob is a version for complainers.
