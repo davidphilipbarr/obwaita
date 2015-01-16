@@ -94,8 +94,8 @@ window.active.button.*.bg: parentrelative
 window.active.button.*.pressed.image.color: #506C7D
 
 !#window.active.button.*.image.color: #4d6067
-window.active.button.*.image.color: #2E3436
-
+#window.active.button.*.image.color: #2E3436
+window.active.button.*.image.color:#525758
 window.active.button.*.hover.image.color: #111111
 window.active.button.*.hover.bg: flat border vertical gradient
 
